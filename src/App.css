@@ -48,3 +48,18 @@ span {
 h2 {
   margin-top: 28px;
 }
+
+@media (max-width: 500px) {
+  .area-input {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    width: 300px;
+    margin-top: 15px;
+  }
+}
