@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+<h1 align="center">
+    Calculadora de IMC
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executar aplicação">Executar Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-## Available Scripts
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
+<br>
 
-### `npm start`
+## 💻 Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Projeto consiste em uma **_ Calculadora de IMC _**.
+<br>
+A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos.
+<br>
+O projeto foi desenvolvido durante as aulas da Semana React JS da plataforma Sujeito Programador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## 🚀 Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto foi desenvolvido com as seguintes tecnologias: <br>
 
-### `npm run build`
+- [React.js](https://pt-br.reactjs.org/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Executar Aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔥 Executando Localmente a Aplicação
 
-### `npm run eject`
+Caso você deseja executar o projeto na sua máquina local, você precisará instalar o Node.js em sua máquina. Após a instalação, basta seguir os passos abaixo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌀 Começando...
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### ❗️ Instalando as Dependências (via Windows):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Abre o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto, exemplo:
 
-## Learn More
+```sh
+cd "C:\Users\NomeDoComputador\Documents\clonedoprojeto"
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Depois, quando estiver na pasta do projeto, basta acessar o projeto frontend na pasta `calculadora-imc` digitar no cmd a seguinte instrução: **(dentro da pasta `calculadora-imc` do projeto clonado)**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install
+```
 
-### Code Splitting
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `node_modules` - que contêm os packages do npm que precisará para o projeto.
 
-### Analyzing the Bundle Size
+#### 💨 Executando a Aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bom, agora **(dentro da pasta `calculadora-imc` do projeto clonado)** abra um terminal para o projeto ser executado e digite:
 
-### Making a Progressive Web App
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pronto! dessa forma o a `calculadora-imc` estará rodando localmente em sua maquina, para acessar abra o navegador no endereço abaixo:
+<br>
 
-### Advanced Configuration
+```sh
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+## 🚩 Tenho Dúvidas... O que fazer?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Caso tenham dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/calculadora-imc/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
+<br>
 
-### `npm run build` fails to minify
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Autor:
+
+Feito com ♥ by
+
+- **Wanderson A. Timóteo** - [Contatos](https://wanderson.tk)
+
+<br>
+
+## Agradecimentos:
+
+<h1 align="center">
+    <img alt="Sujeito Programador" title="Sujeito Programador" src=".github/semana-react.png" width="350" />
+</h1>
+
+- Projeto desenvolvido durante a Semana React JS da plataforma [Sujeito Programador](https://sujeitoprogramador.com/).
+
+- Agradecimento ao instrutor [Matheus Fraga](https://www.linkedin.com/in/matheus-fraga-6940679a/) por compartilhar seu conhecimento.
