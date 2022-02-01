@@ -23,7 +23,11 @@ Projeto consiste em uma **_ Calculadora de IMC _**.
 A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos.
 <br>
 O projeto foi desenvolvido durante as aulas da Semana React JS da plataforma Sujeito Programador.
+<br>
 
+## Acessar o site
+
+Para acessar o projeto Calculadora IMC na web [Clique aqui](https://calculadora-imc-wat.netlify.app/)
 <br>
 
 ## 🚀 Tecnologias
