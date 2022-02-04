@@ -25,6 +25,18 @@ A classificação do índice de massa corporal (IMC), pode ajudar a identificar 
 O projeto foi desenvolvido durante as aulas da Semana React JS da plataforma Sujeito Programador.
 <br>
 
+## Prévia vizualização do sistema
+
+Demonstração do sistema
+
+<p align="center">
+    <img alt="Calculadora IMC" title="Calculadora IMC" src=".github/pg-home.PNG" />
+</p>
+ Resultado de uma consulta
+<p align="center">
+    <img alt="Calculadora IMC" title="Calculadora IMC" src=".github/pg-result.PNG" />
+</p>
+
 ## Acessar o site
 
 Para acessar o projeto Calculadora IMC na web [Clique aqui](https://calculadora-imc-wat.netlify.app/)
